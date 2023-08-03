@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "IntentArchitect.OpenApi.Import.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "-p Generated -f \"YamlV3\" -s \"C:\\dev\\cfc\\Cash Flow Capital\\CFC.ApiGateway\\CFC.Gateway.CreditEase\\creditease_openapi.yaml\""
+    }
+  }
+}

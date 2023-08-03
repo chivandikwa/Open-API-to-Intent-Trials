@@ -1,0 +1,46 @@
+openapi: 3.0.0
+info:
+  title: Sample API
+  version: 1.0.0
+
+paths:
+  /request-a:
+    post:
+      summary: Create Request A
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RequestA'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  message:
+                    type: string
+                  status:
+                    type: string
+                required:
+                  - id
+                  - message
+
+components:
+  schemas:
+    RequestA:
+      type: object
+      properties:
+        name:
+          type: string
+        status:
+          $ref: '#/components/schemas/StatusEnum'
+
+    StatusEnum:
+      type: string
+      enum: [active, inactive]

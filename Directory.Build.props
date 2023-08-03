@@ -1,0 +1,15 @@
+<Project>
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>disable</Nullable>
+		<LangVersion>10</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Using Include="System" />
+		<Using Include="System.Linq" />
+		<Using Include="System.Threading" />
+		<Using Include="System.Threading.Tasks" />
+		<Using Include="System.Collections.Generic" />
+	</ItemGroup>
+</Project>

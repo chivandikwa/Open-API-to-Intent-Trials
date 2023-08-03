@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntentArchitect.OpenApi.Import.Console", "IntentArchitect.OpenApi.Import.Console\IntentArchitect.OpenApi.Import.Console.csproj", "{44B5D3A1-36C6-49D6-A892-B30D3D799EB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntentArchitect.OpenApi.Import", "IntentArchitect.OpenApi.Import\IntentArchitect.OpenApi.Import.csproj", "{B63ECE38-96DA-48C8-9101-FA3F26635CB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{835CB6D5-D2DD-4C13-8D66-64227822F847}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntentArchitect.OpenApi.Import.Tests", "tests\IntentArchitect.OpenApi.Import.Tests\IntentArchitect.OpenApi.Import.Tests.csproj", "{5000E6B6-6CB1-4C0C-9EDF-80DB959827AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{421578FD-BD4B-4E2C-BE00-4F61B2025346}"
+	ProjectSection(SolutionItems) = preProject
+		tests\Directory.Build.props = tests\Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44B5D3A1-36C6-49D6-A892-B30D3D799EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B5D3A1-36C6-49D6-A892-B30D3D799EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B5D3A1-36C6-49D6-A892-B30D3D799EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B5D3A1-36C6-49D6-A892-B30D3D799EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63ECE38-96DA-48C8-9101-FA3F26635CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63ECE38-96DA-48C8-9101-FA3F26635CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63ECE38-96DA-48C8-9101-FA3F26635CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63ECE38-96DA-48C8-9101-FA3F26635CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5000E6B6-6CB1-4C0C-9EDF-80DB959827AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5000E6B6-6CB1-4C0C-9EDF-80DB959827AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5000E6B6-6CB1-4C0C-9EDF-80DB959827AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5000E6B6-6CB1-4C0C-9EDF-80DB959827AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{421578FD-BD4B-4E2C-BE00-4F61B2025346} = {835CB6D5-D2DD-4C13-8D66-64227822F847}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D0B17B9-7FC9-4F44-860D-C9B6ACEDF7FA}
+	EndGlobalSection
+EndGlobal
